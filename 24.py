@@ -11,5 +11,4 @@ def findCombinations(arr, leftSide, rightSide):
 		nextPerms = findCombinations(arr, leftSide + [rightSide[i]], rightSide[0:i] + rightSide[(i+1):])
 	return arr
 
-numbers = [0,1,2,3,4,5,6,7,8,9]
-print(createNumber(findCombinations([], [], numbers)[1000000-1]))
+print(createNumber(findCombinations([], [], [0,1,2,3,4,5,6,7,8,9])[1000000-1]))
