@@ -26,6 +26,7 @@ while p1 < len(abundantNums):
 	p1 += 1
 	p2 = 0
 
+#find the sum of all positive integers which can not be expressed as the sum of two abundant
 cumulativeSum = 0
 for i in range(1, 28123 + 1):
 	if i not in abundantSums:
