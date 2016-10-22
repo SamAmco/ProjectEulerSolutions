@@ -1,5 +1,3 @@
-
-
 step = 2
 countDown = 4
 num = 1
